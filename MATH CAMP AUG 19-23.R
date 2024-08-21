@@ -169,5 +169,3 @@ create_from_github(
   "https://github.com/evekatsuragawa/MATH_CAMP.git",
   destdir = "C:\\Users\\katsuragawa\\Desktop\\Maryland 2024-\\Math camp Aug 19-23\\mathcamp"
 ) # WINDOWS has to be a double backslash \\
-
-use_git()
