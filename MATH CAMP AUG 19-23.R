@@ -164,3 +164,10 @@ library(usethis)
 use_git_config(user.name = "Katsuragawa", user.email = "zzhu1228@umd.edu")
 usethis::create_github_token()
 gitcreds::gitcreds_set()
+
+create_from_github(
+  "https://github.com/evekatsuragawa/MATH_CAMP.git",
+  destdir = "C:\\Users\\katsuragawa\\Desktop\\Maryland 2024-\\Math camp Aug 19-23\\mathcamp"
+) # WINDOWS has to be a double backslash \\
+
+use_git()
